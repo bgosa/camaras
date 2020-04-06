@@ -1,0 +1,260 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Camaras_AytoMaddrid/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Camaras_AytoMaddrid_6467",
+      "layerId": "0",
+      "baseURL": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Camaras_AytoMaddrid/FeatureServer/",
+      "isMapServer": false,
+      "title": "Camaras_AytoMaddrid",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{OID}",
+        "fieldInfos": [
+          {
+            "fieldName": "OID",
+            "visible": false,
+            "isEditable": false,
+            "label": "OID"
+          },
+          {
+            "fieldName": "Name",
+            "visible": false,
+            "isEditable": true,
+            "label": "Name"
+          },
+          {
+            "fieldName": "FolderPath",
+            "visible": false,
+            "isEditable": true,
+            "label": "FolderPath"
+          },
+          {
+            "fieldName": "SymbolID",
+            "visible": false,
+            "isEditable": true,
+            "label": "SymbolID",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "AltMode",
+            "visible": false,
+            "isEditable": true,
+            "label": "AltMode",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Base",
+            "visible": false,
+            "isEditable": true,
+            "label": "Base",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Snippet",
+            "visible": false,
+            "isEditable": true,
+            "label": "Snippet"
+          },
+          {
+            "fieldName": "PopupInfo",
+            "visible": false,
+            "isEditable": true,
+            "label": "PopupInfo"
+          },
+          {
+            "fieldName": "HasLabel",
+            "visible": false,
+            "isEditable": true,
+            "label": "HasLabel",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LabelID",
+            "visible": false,
+            "isEditable": true,
+            "label": "LabelID",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "<div style='width:100%'>\n{PopupInfo}\n</div>",
+        "showAttachments": false,
+        "mediaInfos": []
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 5,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilómetros",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Millas",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "color": [
+        133,
+        133,
+        141,
+        8
+      ],
+      "size": 22.5,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          128,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        119,
+        119,
+        119,
+        41
+      ],
+      "outline": {
+        "color": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Buscar dirección o lugar",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Buscar una dirección o localizar en el mapa",
+  "noFeatureFoundMessage": "No se ha encontrado ningún resultado",
+  "showCurrentLocationTool": false,
+  "enableDirection": false,
+  "bufferInputOption": "slider"
+}

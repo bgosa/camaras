@@ -1,0 +1,450 @@
+{
+  "aoiTabText": "AOI",
+  "reportTabText": "Informe",
+  "placenameButtonText": "Nombre de lugar",
+  "drawToolsButtonText": "Dibujar",
+  "shapefileButtonText": "Shapefile",
+  "coordinatesButtonText": "Coordenadas",
+  "showPlacenameWidget": false,
+  "showDrawToolsWidget": true,
+  "showShapefileWidget": false,
+  "showCoordinatesWidget": false,
+  "allowShapefilesUpload": false,
+  "areaUnits": "SquareFeet",
+  "maxFeaturesForAnalysis": 1000,
+  "searchTolerance": 20,
+  "traverseUnit": "uSSurveyFeet",
+  "traverseDirectionUnit": "decimalDegree",
+  "defaultBufferDistance": 0,
+  "defaultBufferUnit": "UNIT_KILOMETER",
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/Screening/images/default-logo.png",
+    "columnTitleColor": "#c6d9ec",
+    "reportTitle": "Screening Report",
+    "noDataConfiguredText": "No hay datos",
+    "naTextConfiguredValue": "N/A",
+    "customOptions": [],
+    "defaultPrintOption": "Letter ANSI A Portrait",
+    "displaySummaryInReport": true,
+    "hideZeroValueRow": false,
+    "hideNullValueRow": false
+  },
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "ArcGIS World Geocoding Service",
+        "countryCode": "",
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "placenameSymbology": {
+    "point": {
+      "color": [
+        175,
+        209,
+        39,
+        36
+      ],
+      "size": 24.99975,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          128,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "drawToolSymbology": {
+    "point": {
+      "color": [
+        175,
+        209,
+        39,
+        36
+      ],
+      "size": 24.99975,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          128,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "shapefileSymbology": {
+    "point": {
+      "color": [
+        175,
+        209,
+        39,
+        36
+      ],
+      "size": 24.99975,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          128,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "coordinatesSymbology": {
+    "point": {
+      "color": [
+        175,
+        209,
+        39,
+        36
+      ],
+      "size": 24.99975,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          128,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "polyline": {
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "width": 4,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygon": {
+      "color": [
+        136,
+        136,
+        136,
+        63
+      ],
+      "outline": {
+        "color": [
+          112,
+          112,
+          112,
+          255
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "aoiSymbol": {
+      "color": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "aoiSymbol": {
+    "color": [
+      255,
+      255,
+      255,
+      0
+    ],
+    "outline": {
+      "color": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "width": 1.5,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "type": "esriSFS",
+    "style": "esriSFSSolid"
+  },
+  "layers": [
+    {
+      "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Camaras_AytoMaddrid/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Camaras_AytoMaddrid_6467",
+      "label": "",
+      "layerName": "Camaras_AytoMaddrid",
+      "layerVersion": 10.7,
+      "layerId": "0",
+      "baseURL": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Camaras_AytoMaddrid/FeatureServer/",
+      "selectedFields": {
+        "PopupInfo": {
+          "name": "PopupInfo",
+          "type": "esriFieldTypeString",
+          "alias": "PopupInfo",
+          "length": 268435455,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "label": ""
+        }
+      },
+      "groupbyfieldCheckBoxStatus": true
+    }
+  ],
+  "showCircleTool": true,
+  "groupbyfieldCheckBoxStatus": true,
+  "allowVisibleLayerAnalysisOnly": false,
+  "lengthUnits": "Feet",
+  "downloadSettings": {
+    "type": "syncEnable",
+    "layers": [
+      {
+        "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Camaras_AytoMaddrid/FeatureServer/0",
+        "layerName": "Camaras_AytoMaddrid",
+        "id": "Camaras_AytoMaddrid_6467",
+        "allowDownload": true,
+        "downloadingFileOption": [
+          "csv"
+        ]
+      }
+    ],
+    "extractDataTaskURL": "",
+    "downloadingFileOptions": [
+      "csv"
+    ]
+  },
+  "drawToolSelectableLayers": [
+    "Camaras_AytoMaddrid_6467"
+  ],
+  "showPointTool": true,
+  "showPolylineTool": true,
+  "showExtentTool": true,
+  "showPolygonTool": true
+}

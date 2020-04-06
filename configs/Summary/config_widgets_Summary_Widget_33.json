@@ -1,0 +1,12 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "TOTAL",
+  "summaryLayer": {
+    "fields": [],
+    "id": "Camaras_AytoMaddrid_6467",
+    "name": "Camaras_AytoMaddrid",
+    "filterField": "SymbolID",
+    "url": "Camaras_AytoMaddrid_6467"
+  }
+}
